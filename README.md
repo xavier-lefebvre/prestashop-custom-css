@@ -22,14 +22,14 @@ assets:
 
 ### Modify template
 
-In "your_child_theme/", create a folder named "template"
-Copy and paste your template in "your_child_theme/template" from "your_parent_theme/template"
+In "your_child_theme/", create a folder named "template"  
+Copy and paste your template in "your_child_theme/template" from "your_parent_theme/template"  
 In this repository, i duplicate and customize the homepage, "index.tpl"
 
 In this file, you can paste or duplicate blocks, or write html
 
 ### Customize css
 
-For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"
+For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"  
 Put your "custom.css" inside "your_child_theme/assets/css/"
 
