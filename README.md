@@ -1,14 +1,20 @@
-Test
+<h1>Prestashop custom CSS</h1>
 
-<h1>Titre principal</h1>
+<h2>Child Theme</h2>
 
-<h2>Sous-titre 1</h2>
+<h3>Create a child theme</h3>
 
-<p>Paragraphe 1<p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus in lacus a arcu tincidunt mollis. Duis in mauris erat. Quisque gravida mauris est, sit amet elementum risus feugiat ac. Sed tincidunt elit orci, sit amet elementum ipsum euismod sed. Pellentesque id massa in massa feugiat dignissim in a justo. Donec gravida urna vitae lacinia semper. Sed eget neque vulputate, pellentesque massa laoreet, lacinia leo. In vestibulum ipsum a leo rhoncus feugiat. Etiam eget magna at justo tincidunt viverra. Donec laoreet orci nulla, vel fermentum tellus varius nec. <p>
+<p>It's simple : in "your_Prestashop_root/themes/", create a folder for your child theme. </p>
 
-<h2>Sous-titre 2</h2>
+<p>Then inside "your_child_theme/", create a config folder</p>
+<p>In this config folder, make a file named "theme.yml"</p>
 
-<p>Paragraphe 2<p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus in lacus a arcu tincidunt mollis. Duis in mauris erat. Quisque gravida mauris est, sit amet elementum risus feugiat ac. Sed tincidunt elit orci, sit amet elementum ipsum euismod sed. Pellentesque id massa in massa feugiat dignissim in a justo. Donec gravida urna vitae lacinia semper. Sed eget neque vulputate, pellentesque massa laoreet, lacinia leo. In vestibulum ipsum a leo rhoncus feugiat. Etiam eget magna at justo tincidunt viverra. Donec laoreet orci nulla, vel fermentum tellus varius nec. </p>
+an example of what to put in this file
+```
+parent: classic
+name: child_classic
+display-name: Child-theme of classic theme
+version: 1.0.0
+assets:
+    use_parent_assets: true
+```
