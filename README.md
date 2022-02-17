@@ -1,4 +1,3 @@
-
 <h1>Prestashop custom CSS (for the classic theme)</h1>
 
 <h2>Child Theme</h2>
@@ -20,7 +19,7 @@ version: 1.0.0
 assets:
     use_parent_assets: true
 ```
-<html>
+
 <h3>Modify template</h3>
 
 <p>In "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">template</span>"</p>
@@ -33,4 +32,4 @@ assets:
 
 <p>For custom css, in "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">assets</span>", then inside him, another folder named "<span style="color:blue">css</span>"</p>
 <p>Put your "<span style="color:yellow">custom.css</span>" inside "<span style="color:blue">your_child_theme/assets/css/</span>"</p>
-</html>
+
