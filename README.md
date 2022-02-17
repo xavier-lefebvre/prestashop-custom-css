@@ -1,13 +1,13 @@
-#Prestashop custom CSS (for the classic theme)
+# Prestashop custom CSS (for the classic theme)
 
-##Child Theme
+## Child Theme
 
-###Create a child theme
+### Create a child theme
 
-<p>It's simple : in "your_Prestashop_root/themes/", create a folder for your child theme. </p>
+It's simple : in "your_Prestashop_root/themes/", create a folder for your child theme. 
 
-<p>Then inside "your_child_theme/", create a config folder</p>
-<p>In this config folder, make a file named "theme.yml"</p>
+Then inside "your_child_theme/", create a config folder.
+In this config folder, make a file named "theme.yml"
 
 
 an example of what to put in this file
@@ -20,16 +20,16 @@ assets:
     use_parent_assets: true
 ```
 
-###Modify template
+### Modify template
 
-<p>In "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">template</span>"</p>
-<p>Copy and paste your template in "<span style="color:blue">your_child_theme/template</span>" from "<span style="color:blue">your_parent_theme/template</span>"</p>
-<p>In this repository, i duplicate and customize the homepage, "<span style="color:yellow">index.tpl</span>"</p>
+In "your_child_theme/", create a folder named "template"
+Copy and paste your template in "your_child_theme/template" from "your_parent_theme/template"
+In this repository, i duplicate and customize the homepage, "index.tpl"
 
-<p>In this file, you can paste or duplicate blocks, or write html<p>
+In this file, you can paste or duplicate blocks, or write html
 
-###Customize css
+### Customize css
 
-<p>For custom css, in "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">assets</span>", then inside him, another folder named "<span style="color:blue">css</span>"</p>
-<p>Put your "<span style="color:yellow">custom.css</span>" inside "<span style="color:blue">your_child_theme/assets/css/</span>"</p>
+For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"
+Put your "custom.css" inside "your_child_theme/assets/css/"
 
