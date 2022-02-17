@@ -1,8 +1,8 @@
-<h1>Prestashop custom CSS (for the classic theme)</h1>
+#Prestashop custom CSS (for the classic theme)
 
-<h2>Child Theme</h2>
+##Child Theme
 
-<h3>Create a child theme</h3>
+###Create a child theme
 
 <p>It's simple : in "your_Prestashop_root/themes/", create a folder for your child theme. </p>
 
@@ -20,7 +20,7 @@ assets:
     use_parent_assets: true
 ```
 
-<h3>Modify template</h3>
+###Modify template
 
 <p>In "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">template</span>"</p>
 <p>Copy and paste your template in "<span style="color:blue">your_child_theme/template</span>" from "<span style="color:blue">your_parent_theme/template</span>"</p>
@@ -28,7 +28,7 @@ assets:
 
 <p>In this file, you can paste or duplicate blocks, or write html<p>
 
-<h3>Customize css</h3>
+###Customize css
 
 <p>For custom css, in "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">assets</span>", then inside him, another folder named "<span style="color:blue">css</span>"</p>
 <p>Put your "<span style="color:yellow">custom.css</span>" inside "<span style="color:blue">your_child_theme/assets/css/</span>"</p>
