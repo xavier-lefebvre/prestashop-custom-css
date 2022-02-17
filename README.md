@@ -21,13 +21,13 @@ assets:
 
 <h3>Modify template</h3>
 
-<p>In "your_child_theme/", create a folder named "template"</p>
-<p>Copy and paste your template in "your_child_theme/template" from "your_parent_theme/template"</p>
-<p>In this repository, i duplicate and customize the homepage, "index.tpl"</p>
+<p>In "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">template</span>"</p>
+<p>Copy and paste your template in "<span style="color:blue">your_child_theme/template</span>" from "<span style="color:blue">your_parent_theme/template</span>"</p>
+<p>In this repository, i duplicate and customize the homepage, "<span style="color:yellow">index.tpl</span>"</p>
 
 <p>In this file, you can paste or duplicate blocks, or write html<p>
 
-<h3>Custom css</h3>
+<h3>Customize css</h3>
 
-<p>For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"</p>
-<p>Put your "custom.css" inside "your_child_theme/assets/css/"</p>
+<p>For custom css, in "<span style="color:blue">your_child_theme/</span>", create a folder named "<span style="color:blue">assets</span>", then inside him, another folder named "<span style="color:blue">css</span>"</p>
+<p>Put your "<span style="color:yellow">custom.css</span>" inside "<span style="color:blue">your_child_theme/assets/css/</span>"</p>
