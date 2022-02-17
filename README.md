@@ -1,4 +1,4 @@
-<html>
+
 <h1>Prestashop custom CSS (for the classic theme)</h1>
 
 <h2>Child Theme</h2>
@@ -9,7 +9,7 @@
 
 <p>Then inside "your_child_theme/", create a config folder</p>
 <p>In this config folder, make a file named "theme.yml"</p>
-</html>
+
 
 an example of what to put in this file
 ```
