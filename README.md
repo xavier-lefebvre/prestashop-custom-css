@@ -32,3 +32,5 @@ In this file, you can paste or duplicate blocks, or write html
 
 For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"  
 Put your "custom.css" inside "your_child_theme/assets/css/"
+
+*https://www.prestacrea.com/blog/39-liste-recapitulative-des-principaux-hooks-de-prestashop*
