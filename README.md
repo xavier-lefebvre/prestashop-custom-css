@@ -33,10 +33,12 @@ In this file, you can paste or duplicate blocks, or write html
 For custom css, in "your_child_theme/", create a folder named "assets", then inside him, another folder named "css"  
 Put your "custom.css" inside "your_child_theme/assets/css/"
 
-## Tips
+
+### Tips
 
 In the back-office of Prestashop, in Advanced settings > Performances > Smarty, desactivate cache and force compilation.
 
 If your modifications are not taken into account, empty the cache of your navigator or in the backoffice of Prestashop.
 
-https://www.prestacrea.com/blog/39-liste-recapitulative-des-principaux-hooks-de-prestashop
+*https://www.prestacrea.com/blog/39-liste-recapitulative-des-principaux-hooks-de-prestashop*
+
